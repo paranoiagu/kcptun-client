@@ -2,6 +2,6 @@
 
 docker stop kcptun-client
 docker rm kcptun-client
-docker rmi xjdata/kcptun-client 
+docker rmi paranoia/kcptun-client 
 
-docker build -t xjdata/kcptun-client ./
+docker build -t paranoia/kcptun-client ./

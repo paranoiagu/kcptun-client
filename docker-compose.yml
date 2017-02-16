@@ -1,7 +1,7 @@
 version: '2'
 services:
   kcptun-client:
-    image: daocloud.io/xjdata/kcptun-client
+    image: paranoia/kcptun-client
     environment:
       - LISTEN_ADDR=127.0.0.1
       - LISTEN_PORT=8388

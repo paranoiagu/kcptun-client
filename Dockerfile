@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER Gu Yanfeng <gyf@many-it.com>
+MAINTAINER Gu Yanfeng <gu.yanfeng@gmail.com>
 
 ENV KCPTUN_VER 20170120
 ENV KCPTUN_URL https://github.com/xtaci/kcptun/releases/download/v${KCPTUN_VER}/kcptun-linux-amd64-${KCPTUN_VER}.tar.gz
